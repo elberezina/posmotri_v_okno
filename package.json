@@ -1,0 +1,15 @@
+{
+  "name": "posmotri_v_okno",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix"
+  },
+  "dependencies": {
+    "prettier": "^3.0.2",
+    "stylelint": "^15.10.3"
+  }
+}
