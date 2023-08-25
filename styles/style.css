@@ -57,7 +57,7 @@ fieldset {
 
 .content {
   display: grid;
-  grid-template-columns: 711px 399px;
+  grid-template-columns: 711px 416px;
   gap: 30px;
   align-items: end;
   width: 1140px;
@@ -117,7 +117,7 @@ fieldset {
   outline-offset: 1px;
 }
 
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 1px;
@@ -221,7 +221,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   overflow: auto;
 }
 
-.content__list .content__list-item:not(:last-child) {
+.content__list-item:not(:last-child) {
   padding-bottom: 30px;
 }
 
